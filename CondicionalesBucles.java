@@ -1,6 +1,6 @@
 public class CondicionalesBucles {
 
-    public static void main(String args[]){
+    public static void main(String args[]) {
 
         // Condicional
         int edad = 10;
@@ -11,7 +11,18 @@ public class CondicionalesBucles {
             System.out.println("Eres menor de edad");
         }
 
+        // bucles
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Iteración: " + i);
+        }
+
+        // Bucle while
+        int contador = 0;
+        while (contador < 5) {
+            System.out.println("Contador: " + contador);
+            contador++;
+        }
+
     }
 
-    
 }
